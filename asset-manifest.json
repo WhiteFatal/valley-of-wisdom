@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/valley-of-wisdom/static/css/main.b57b5b0c.css",
+    "main.js": "/valley-of-wisdom/static/js/main.fcbc39d3.js",
+    "static/media/9.jpg": "/valley-of-wisdom/static/media/9.cdc191371d894abcc8f7.jpg",
+    "static/media/6.jpg": "/valley-of-wisdom/static/media/6.e71f78b25a812a55f664.jpg",
+    "static/media/10.jpg": "/valley-of-wisdom/static/media/10.ebf1e3305bc132315e6d.jpg",
+    "static/media/8.jpg": "/valley-of-wisdom/static/media/8.2c691233e322d1f93784.jpg",
+    "static/media/14.jpg": "/valley-of-wisdom/static/media/14.9109aaf323953d2a97d1.jpg",
+    "static/media/13.jpg": "/valley-of-wisdom/static/media/13.1648560b19acc199c563.jpg",
+    "static/media/5.jpg": "/valley-of-wisdom/static/media/5.987281659fd4d90d71ee.jpg",
+    "static/media/3.jpg": "/valley-of-wisdom/static/media/3.325080a19f38396ee3bb.jpg",
+    "static/media/12.jpg": "/valley-of-wisdom/static/media/12.340f8ad389da47baae9c.jpg",
+    "static/media/2.jpg": "/valley-of-wisdom/static/media/2.c509edd8c46ecdae9f50.jpg",
+    "static/media/7.jpg": "/valley-of-wisdom/static/media/7.edfe0cb4b2211d683286.jpg",
+    "static/media/11.jpg": "/valley-of-wisdom/static/media/11.fcf509c8c942c0c4dad3.jpg",
+    "static/media/15.jpg": "/valley-of-wisdom/static/media/15.6c25baac19eeb30aa7f3.jpg",
+    "static/media/4.jpg": "/valley-of-wisdom/static/media/4.504399d53a2afe3fddb9.jpg",
+    "static/media/1.jpg": "/valley-of-wisdom/static/media/1.4dbe2c9ff3b20bc6d089.jpg",
+    "static/media/16.jpg": "/valley-of-wisdom/static/media/16.6f1d01b866d8e40a1051.jpg",
+    "index.html": "/valley-of-wisdom/index.html",
+    "main.b57b5b0c.css.map": "/valley-of-wisdom/static/css/main.b57b5b0c.css.map",
+    "main.fcbc39d3.js.map": "/valley-of-wisdom/static/js/main.fcbc39d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b57b5b0c.css",
+    "static/js/main.fcbc39d3.js"
+  ]
+}
