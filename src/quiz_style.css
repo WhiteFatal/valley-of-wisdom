@@ -1,0 +1,197 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --empty-button-color: white;
+    --glow-color: rgb(44, 211, 237);
+    --golden-glow: rgb(202, 207, 41);
+    --correct-answer: #94D7A2;
+    --main-text-color: #293264;
+}
+
+html {
+    font-size: 62.5%;  /* set 1rem = 10px*/ 
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+/* ---- START SCREEN ---- */
+.start-screen-main {
+    min-width: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5rem;
+    border: none;
+}
+h1 {
+    font-family: Karla, 'Gill Sans', 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 37px;
+    color: var(--main-text-color);
+    margin: 0;
+    letter-spacing: 1rem;
+    text-shadow: 10px 10px 25px var(--glow-color),
+    -10px 10px 25px var(--glow-color),
+    -10px -10px 25px var(--glow-color),
+    10px -10px 25px var(--glow-color);
+
+}
+h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 19px;
+    color: #293264;
+    margin: 4rem 0 8rem 0;
+    letter-spacing: 0.5rem;
+    text-shadow: 10px 10px 25px var(--glow-color),
+    -10px 10px 25px var(--glow-color),
+    -10px -10px 25px var(--glow-color),
+    10px -10px 25px var(--glow-color);
+}
+.start-btn {
+    min-width: 37rem;
+    padding: 2rem 0;
+    background: #4D5B9E;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    cursor: pointer;  
+    transition: .5s;
+ }
+ .start-btn:focus {
+     outline: none;
+ }
+ .start-btn:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 4rem var(--glow-color);
+    transition: .5s;
+    color: var(--glow-color);
+    letter-spacing: 0.6rem;
+    transition: .5s;
+ }
+
+ /* ---- QUIZ SCREEN ---- */
+.quiz-screen-main {
+    min-width: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 5rem;
+    background-color: rgba(255, 255, 200, 0.3);
+    border-radius: 5rem;
+    border: none;
+}
+
+.question-container {  
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #293264;    
+    text-shadow: 0.2rem -0.1rem 0.3rem white;
+}
+.answer-btn {
+    margin: 1rem;
+    padding: 0.3rem 0.5rem;
+    min-width: 65px;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #293264;
+    cursor: pointer;
+    background-color: var(--empty-button-color);
+    box-shadow: 0 0.4rem 0.3rem var(--golden-glow);
+}
+.answer-btn:focus {
+    outline: none;
+}
+.answer-btn:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 4rem var(--glow-color);
+    transition: .5s;
+    color: var(--glow-color);
+    letter-spacing: 0.05rem;
+    transition: .5s;
+}
+
+.check-answers-btn {
+    width: 120px;
+    height: 35px;
+    border: none;
+    background: #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: white;
+}
+.check-answers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    transition: .5s;
+}
+.score-count {
+    margin: 0 2rem;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: var(--main-text-color);
+    transition: .5s;
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+    transition: .5s;
+}
+
+.check-answers-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    min-width: 30rem;
+    background: #4D5B9E;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    color: white;
+    cursor: pointer;  
+    transition: .5s;
+}
+.check-answers-btn:focus {
+    outline: none;
+}
+.check-answers-btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 2rem var(--glow-color);
+    transition: .5s;
+    color: var(--glow-color);
+    letter-spacing: 0.33rem;
+    transition: .5s;
+}
